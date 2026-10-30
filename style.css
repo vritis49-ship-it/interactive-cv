@@ -1,0 +1,96 @@
+/* Clean, Modern CV Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+.resume-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* Left Sidebar Styles */
+.sidebar {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 40px;
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.sidebar h1 {
+    margin-top: 0;
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #aeb6bf;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.sidebar h2 {
+    margin-top: 40px;
+    border-bottom: 1px solid #4a5c6d;
+    padding-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* Right Content Styles */
+.content {
+    padding: 40px 50px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.content h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+}
+
+.timeline-item h3 {
+    margin: 0 0 5px 0;
+    color: #34495e;
+    font-size: 1.2em;
+}
+
+.date {
+    margin: 0 0 10px 0;
+    color: #888;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.timeline-item p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}

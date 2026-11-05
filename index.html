@@ -4,53 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vriti Shah | Interactive CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="resume-container">
-        <!-- Left Sidebar -->
-        <aside class="sidebar">
-            <h1>Vriti Shah</h1>
-            <p class="subtitle">Computer Science Student</p>
-            
-            <div class="contact-info">
-                <p>📍 Leeds, UK</p>
-                <p>✉️ vritis49@gmail.com/kirkstall.monk@gmail.com</p>
-                <p>🔗 github.com/vritis49-ship-it</p>
-            </div>
-            
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>Python, Java, C/C++</li>
-                <li>HTML, CSS, JavaScript</li>
-                <li>SQL / MySQL</li>
-                <li>Data Analytics</li>
-            </ul>
-        </aside>
+    <canvas id="sky"></canvas>
+    <div class="nebula"></div>
 
-        <!-- Right Main Content -->
-        <main class="content">
-            <section>
-                <h2>Education</h2>
-                <div class="timeline-item">
-                    <h3>BSc (Hons) Computer Science</h3>
-                    <p class="date">Leeds Beckett University | Present</p>
-                    <p>Focusing on Object-Oriented Programming, Software Architecture, and Full-Stack Development.</p>
-                </div>
-                <div class="timeline-item">
-                    <h3>Diploma in Information Technology</h3>
-                    <p class="date">University of Technology Sydney (UTS)</p>
-                    <p>Gained foundational knowledge in IT, systems architecture, and core programming principles.</p>
-                </div>
-            </section>
+    <div class="page">
+        <a class="back" href="https://vritis49-ship-it.github.io/star-bound/">← Back to portfolio</a>
 
-            <section>
-                <h2>Professional Profile</h2>
-                <div class="timeline-item">
-                    <p>IT professional with a strong technical background in software engineering and data operations. Passionate about bridging the gap between clean code and practical analytics, with experience in HTML, website design, UI/UX, and AI-driven workflows.</p>
+        <div class="resume-container glass">
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+                <h1>Vriti Shah</h1>
+                <p class="subtitle">Computer Science Student</p>
+
+                <div class="contact-info">
+                    <p>📍 Leeds, UK</p>
+                    <p>✉️ <a href="mailto:vritis49@gmail.com">vritis49@gmail.com</a></p>
+                    <p>🔗 <a href="https://github.com/vritis49-ship-it" target="_blank" rel="noopener">github.com/vritis49-ship-it</a></p>
                 </div>
-            </section>
-        </main>
+
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Python, Java, C/C++</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>SQL / MySQL</li>
+                    <li>Data Analytics</li>
+                </ul>
+            </aside>
+
+            <!-- Right Main Content -->
+            <main class="content">
+                <section class="reveal">
+                    <h2>Education</h2>
+                    <div class="timeline-item">
+                        <h3>BSc (Hons) Computer Science</h3>
+                        <p class="date">Leeds Beckett University | Present</p>
+                        <p>Focusing on Object-Oriented Programming, Software Architecture, and Full-Stack Development.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Diploma in Information Technology</h3>
+                        <p class="date">University of Technology Sydney (UTS)</p>
+                        <p>Gained foundational knowledge in IT, systems architecture, and core programming principles.</p>
+                    </div>
+                </section>
+
+                <section class="reveal">
+                    <h2>Professional Profile</h2>
+                    <div class="timeline-item">
+                        <p>IT professional with a strong technical background in software engineering and data operations. Passionate about bridging the gap between clean code and practical analytics, with experience in HTML, website design, UI/UX, and AI-driven workflows.</p>
+                    </div>
+                </section>
+
+                <section class="reveal">
+                    <h2>Projects</h2>
+                    <div class="timeline-item">
+                        <h3>Data Analytics Tool</h3>
+                        <p class="date">Python · SQL · Matplotlib</p>
+                        <p>Builds a SQLite sales database, runs revenue queries and generates a chart.
+                           <a href="https://github.com/vritis49-ship-it/data-analytics-portfolio" target="_blank" rel="noopener">View source ↗</a></p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Cosmic Study Timer</h3>
+                        <p class="date">HTML · CSS · JavaScript</p>
+                        <p>A glassmorphism Pomodoro timer with a progress ring and break modes.
+                           <a href="https://vritis49-ship-it.github.io/js-study-timer/" target="_blank" rel="noopener">View live ↗</a></p>
+                    </div>
+                </section>
+            </main>
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
